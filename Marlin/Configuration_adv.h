@@ -75,7 +75,7 @@
  * THERMAL_PROTECTION_HYSTERESIS and/or THERMAL_PROTECTION_PERIOD
  */
 #if ENABLED(THERMAL_PROTECTION_HOTENDS)
-  #define THERMAL_PROTECTION_PERIOD 90        // Seconds
+  #define THERMAL_PROTECTION_PERIOD 60         // Seconds
   #define THERMAL_PROTECTION_HYSTERESIS 10     // Degrees Celsius
 
   /**
@@ -90,7 +90,7 @@
    * and/or decrease WATCH_TEMP_INCREASE. WATCH_TEMP_INCREASE should not be set
    * below 2.
    */
-  #define WATCH_TEMP_PERIOD 45                // Seconds
+  #define WATCH_TEMP_PERIOD 60                // Seconds
   #define WATCH_TEMP_INCREASE 5               // Degrees Celsius
 #endif
 
@@ -98,14 +98,14 @@
  * Thermal Protection parameters for the bed are just as above for hotends.
  */
 #if ENABLED(THERMAL_PROTECTION_BED)
-  #define THERMAL_PROTECTION_BED_PERIOD 45    // Seconds
-  #define THERMAL_PROTECTION_BED_HYSTERESIS 5 // Degrees Celsius
+  #define THERMAL_PROTECTION_BED_PERIOD 120    // Seconds
+  #define THERMAL_PROTECTION_BED_HYSTERESIS 10 // Degrees Celsius
 
   /**
    * As described above, except for the bed (M140/M190/M303).
    */
-  #define WATCH_BED_TEMP_PERIOD 60                // Seconds
-  #define WATCH_BED_TEMP_INCREASE 3               // Degrees Celsius
+  #define WATCH_BED_TEMP_PERIOD 120               // Seconds
+  #define WATCH_BED_TEMP_INCREASE 5               // Degrees Celsius
 #endif
 
 #if ENABLED(PIDTEMP)
