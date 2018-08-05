@@ -468,8 +468,8 @@
  * Prevent a single extrusion longer than EXTRUDE_MAXLENGTH.
  * Note: For Bowden Extruders make this large enough to allow load/unload.
  */
-#define PREVENT_LENGTHY_EXTRUDE
-#define EXTRUDE_MAXLENGTH 320
+//#define PREVENT_LENGTHY_EXTRUDE
+//#define EXTRUDE_MAXLENGTH 320
 
 //===========================================================================
 //======================== Thermal Runaway Protection =======================
@@ -644,9 +644,9 @@
  *   M204 R    Retract Acceleration
  *   M204 T    Travel Acceleration
  */
-#define DEFAULT_ACCELERATION          3000    //3000 X, Y, Z and E acceleration for printing moves
-#define DEFAULT_RETRACT_ACCELERATION  3000    //3000 E acceleration for retracts
-#define DEFAULT_TRAVEL_ACCELERATION   3000    //3000 X, Y, Z acceleration for travel (non printing) moves
+#define DEFAULT_ACCELERATION          1500    //3000 X, Y, Z and E acceleration for printing moves
+#define DEFAULT_RETRACT_ACCELERATION  1500    //3000 E acceleration for retracts
+#define DEFAULT_TRAVEL_ACCELERATION   1500    //3000 X, Y, Z acceleration for travel (non printing) moves
 
 /**
  * Default Jerk (mm/s)
@@ -658,7 +658,7 @@
  */
 #define DEFAULT_XJERK                 15.0
 #define DEFAULT_YJERK                 15.0
-#define DEFAULT_ZJERK                  0.5
+#define DEFAULT_ZJERK                  5.0
 #define DEFAULT_EJERK                  5.0
 
 /**
@@ -669,7 +669,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-//#define S_CURVE_ACCELERATION
+#define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================
@@ -1266,12 +1266,12 @@
 // @section temperature
 
 // Preheat Constants
-#define PREHEAT_1_TEMP_HOTEND 180
+#define PREHEAT_1_TEMP_HOTEND 160
 #define PREHEAT_1_TEMP_BED     60
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
-#define PREHEAT_2_TEMP_HOTEND 240
-#define PREHEAT_2_TEMP_BED     80
+#define PREHEAT_2_TEMP_HOTEND 230
+#define PREHEAT_2_TEMP_BED     90
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
 
 /**
