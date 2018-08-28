@@ -609,7 +609,7 @@
  * following movement settings. If fewer factors are given than the
  * total number of extruders, the last value applies to the rest.
  */
-//#define DISTINCT_E_FACTORS
+#define DISTINCT_E_FACTORS
 
 /**
  * Default Axis Steps Per Unit (steps/mm)
@@ -617,7 +617,7 @@
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 8000, 196 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 8000, 236 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 150.59, 160, 8000, 236, 236 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -625,7 +625,7 @@
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
 //#define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 25 }
-#define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 25 }
+#define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 25, 25 }
 
 /**
  * Default Max Acceleration (change/s) change = mm/s
@@ -634,7 +634,7 @@
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
 //#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 10000 }
-#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 10000 }
+#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 10000, 10000 }
 
 /**
  * Default Acceleration (change/s) change = mm/s
@@ -1266,7 +1266,7 @@
 // @section temperature
 
 // Preheat Constants
-#define PREHEAT_1_TEMP_HOTEND 160
+#define PREHEAT_1_TEMP_HOTEND 180
 #define PREHEAT_1_TEMP_BED     60
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
