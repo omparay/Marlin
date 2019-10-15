@@ -23,7 +23,7 @@ Marlin 1.1.9 is the final release of the AVR-only flat version of Marlin Firmwar
 
 ## Contributing to Marlin
 
-Click on the [Issue Queue](https://github.com/MarlinFirmware/Marlin/issues) and [Pull Requests](https://github.com/MarlinFirmware/Marlin/pulls) links above at any time to see what we're currently working on.
+If you have coding or writing skills you're encouraged to contribute to Marlin. You may also contribute suggestions, feature requests, and bug reports through the Marlin Issue Queue.
 
 To submit patches and new features for Marlin 2.0 check out the [bugfix-2.0.x](https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x) branch, add your commits, and submit a Pull Request back to the `bugfix-2.0.x` branch. Once 2.0.x has been certified for a critical mass of common 32-bit boards, it will become the next major release and will be the basis for all future major and minor releases.
 
@@ -50,10 +50,12 @@ Marlin Admins:
  - Scott Lahteine [[@thinkyhead](https://github.com/thinkyhead)]
  - Roxanne Neufeld [[@Roxy-3D](https://github.com/Roxy-3D)]
  - Bob Kuhn [[@Bob-the-Kuhn](https://github.com/Bob-the-Kuhn)]
+ - Erik van der Zalm [[@ErikZalm](https://github.com/ErikZalm)]
 
 Notable contributors:
  - Alberto Cotronei [[@MagoKimbra](https://github.com/MagoKimbra)]
  - Andreas Hardtung [[@AnHardt](https://github.com/AnHardt)]
+ - Ben Lye [[@benlye](https://github.com/benlye)]
  - Bernhard Kubicek [[@bkubicek](https://github.com/bkubicek)]
  - Bob Cousins [[@bobc](https://github.com/bobc)]
  - Chris Palmer [[@nophead](https://github.com/nophead)]
@@ -62,24 +64,26 @@ Notable contributors:
  - Éduardo Tagle [[@ejtagle](https://github.com/ejtagle)]
  - Edward Patel [[@epatel](https://github.com/epatel)]
  - Ernesto Martinez [[@emartinez167](https://github.com/emartinez167)]
+ - Edward Patel [[@epatel](https://github.com/epatel)]
  - F. Malpartida [[@fmalpartida](https://github.com/fmalpartida)]
  - Giuliano Zaro [[@GMagician](https://github.com/GMagician)]
  - Jochen Groppe [[@CONSULitAS](https://github.com/CONSULitAS)]
  - João Brazio [[@jbrazio](https://github.com/jbrazio)]
  - Kai [[@Kaibob2](https://github.com/Kaibob2)]
- - Luc Van Daele[[@LVD-AC](https://github.com/LVD-AC)]
- - Nico Tonnhofer [[@Wurstnase](https://github.com/Wurstnase)]
- - Petr Zahradnik [[@clexpert](https://github.com/clexpert)]
+ - Luc Van Daele [[@LVD-AC](https://github.com/LVD-AC)]
+ - Alberto Cotronei [[@MagoKimbra](https://github.com/MagoKimbra)]
+ - Marcio Teixeira [[@marcio-ao](https://github.com/marcio-ao)]
+ - Chris Palmer [[@nophead](https://github.com/nophead)]
+ - Chris Pepper [[@p3p](https://github.com/p3p)]
+ - Steeve Spaggi [[@studiodyne](https://github.com/studiodyne)]
  - Thomas Moore [[@tcm0116](https://github.com/tcm0116)]
- - [[@alexxy](https://github.com/alexxy)]
+ - Teemu Mäntykallio [[@teemuatlut](https://github.com/teemuatlut)]
+ - Nico Tonnhofer [[@Wurstnase](https://github.com/Wurstnase)]
  - [[@android444](https://github.com/android444)]
- - [[@benlye](https://github.com/benlye)]
  - [[@bgort](https://github.com/bgort)]
  - [[@Grogyan](https://github.com/Grogyan)]
- - [[@marcio-ao](https://github.com/marcio-ao)]
  - [[@maverikou](https://github.com/maverikou)]
  - [[@oysteinkrog](https://github.com/oysteinkrog)]
- - [[@p3p](https://github.com/p3p)]
  - [[@paclema](https://github.com/paclema)]
  - [[@paulusjacobus](https://github.com/paulusjacobus)]
  - [[@psavva](https://github.com/psavva)]
@@ -89,7 +93,7 @@ Notable contributors:
 
 ## License
 
-Marlin is published under the [GPL license](https://github.com/COPYING.md) because we believe in open development. The GPL comes with both rights and obligations. Whether you use Marlin firmware as the driver for your open or closed-source product, you must keep Marlin open, and you must provide your compatible Marlin source code to end users upon request. The most straightforward way to comply with the Marlin license is to make a fork of Marlin on Github, perform your modifications, and direct users to your modified fork.
+Marlin is published under the [GPLv3 license](https://github.com/MarlinFirmware/Marlin/blob/1.0.x/COPYING.md) because we believe in open development. The GPL comes with both rights and obligations. Whether you use Marlin firmware as the driver for your open or closed-source product, you must keep Marlin open, and you must provide your compatible Marlin source code to end users upon request. The most straightforward way to comply with the Marlin license is to make a fork of Marlin on Github, perform your modifications, and direct users to your modified fork.
 
 While we can't prevent the use of this code in products (3D printers, CNC, etc.) that are closed source or crippled by a patent, we would prefer that you choose another firmware or, better yet, make your own.
 
